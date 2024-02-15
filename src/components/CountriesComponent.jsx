@@ -102,7 +102,7 @@ const CountriesComponent = () => {
           ))}
         </select>
       </div>
-      {selectedCity ? <p>{`you selected ${selectedCity}, ${selectedState}, ${selectedCountry}`}</p> : null}
+      {selectedCity ? <p>{`You selected ${selectedCity}, ${selectedState}, ${selectedCountry}`}</p> : null}
     </div>
   );
 };
